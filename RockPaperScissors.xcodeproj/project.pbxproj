@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9CA264F31E3913A200CD9396 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA264F21E3913A200CD9396 /* main.m */; };
+		9CA264FB1E3913BD00CD9396 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA264FA1E3913BD00CD9396 /* RPSGame.m */; };
+		9CA264FE1E3913CC00CD9396 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA264FD1E3913CC00CD9396 /* RPSTurn.m */; };
+		9CA265011E3919FC00CD9396 /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA265001E3919FC00CD9396 /* RPSController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		9CA264EF1E3913A200CD9396 /* RockPaperScissors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RockPaperScissors; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA264F21E3913A200CD9396 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CA264F91E3913BD00CD9396 /* RPSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
+		9CA264FA1E3913BD00CD9396 /* RPSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		9CA264FC1E3913CC00CD9396 /* RPSTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
+		9CA264FD1E3913CC00CD9396 /* RPSTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
+		9CA264FF1E3919FC00CD9396 /* RPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		9CA265001E3919FC00CD9396 /* RPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				9CA264F21E3913A200CD9396 /* main.m */,
+				9CA264F91E3913BD00CD9396 /* RPSGame.h */,
+				9CA264FA1E3913BD00CD9396 /* RPSGame.m */,
+				9CA264FC1E3913CC00CD9396 /* RPSTurn.h */,
+				9CA264FD1E3913CC00CD9396 /* RPSTurn.m */,
+				9CA264FF1E3919FC00CD9396 /* RPSController.h */,
+				9CA265001E3919FC00CD9396 /* RPSController.m */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -121,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CA264F31E3913A200CD9396 /* main.m in Sources */,
+				9CA264FB1E3913BD00CD9396 /* RPSGame.m in Sources */,
+				9CA264FE1E3913CC00CD9396 /* RPSTurn.m in Sources */,
+				9CA265011E3919FC00CD9396 /* RPSController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
