@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
         RPSController* gameController = [[RPSController alloc] init];
         
         // Send the message throwDown: to the game controller you just created
-        [gameController throwDown: Paper];
+        [gameController throwDown: Scissors];
         
         // Create an NSString called results message
         // Call the method, messageForGame: using the gameController you just created

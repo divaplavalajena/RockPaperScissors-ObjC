@@ -16,7 +16,7 @@
 @property (nonatomic) RPSTurn* secondTurn;
 
 -(instancetype)initWithFirstTurn:(RPSTurn *) firstTurn
-                      SecondTurn:(RPSTurn *) secondTurn;
+                      secondTurn:(RPSTurn *) secondTurn;
 
 -(RPSTurn *)winner;
 -(RPSTurn *)loser;

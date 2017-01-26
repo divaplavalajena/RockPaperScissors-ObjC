@@ -16,6 +16,7 @@
 
 @property (nonatomic) RPSGame* game;
 
+-(void)setGame:(RPSGame*)game;
 -(void)throwDown:(Move)playersMove;
 -(NSString*)resultString:(RPSGame*) game;
 -(NSString*)messageForGame:(RPSGame*) game;

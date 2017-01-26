@@ -32,6 +32,7 @@
 
 
 -(Move)generateMove {
+    // Get a random number between 0 and 3 - 0, 1, or 2
     NSUInteger randomNumber = arc4random_uniform(3);
     
     switch(randomNumber) {

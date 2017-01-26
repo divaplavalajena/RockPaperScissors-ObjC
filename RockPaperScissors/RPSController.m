@@ -16,16 +16,19 @@
 }
 
 -(void)throwDown:(Move)playersMove {
+    // This method will simulate a player throwing down a move - Rock, Paper, or Scissors
+    // and simultaneously generate an opponents move in order to create a RPS game
     
     //Here the RPSTurn class generates the player's turn
     RPSTurn *playersTurn = [[RPSTurn alloc] initWithMove:playersMove];
+    // Here the RPSTurn class generates the opponent's move
     RPSTurn *computersTurn = [[RPSTurn alloc] init];
     
     
     
     // The RPSGame class stores the results of a game
     self.game = [[RPSGame alloc] initWithFirstTurn:playersTurn
-                                        SecondTurn:computersTurn];
+                                        secondTurn:computersTurn];
     
 }
 
